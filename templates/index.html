@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>ReelForge</title>
+  <style>
+    body{font-family: Arial, sans-serif; max-width:600px; margin:auto; padding:2rem;}
+    input,textarea,button{width:100%; margin-top:1rem; padding:.5rem;}
+  </style>
+</head>
+<body>
+  <h2>ReelForge</h2>
+  <form method="post" enctype="multipart/form-data">
+    <label>Upload image:</label>
+    <input type="file" name="image" accept="image/*" required>
+    <label>Prompt (Bangla/English):</label>
+    <textarea name="prompt" rows="3" placeholder="ভেতরের অন্ধকারটা কেউ দেখে না..." required></textarea>
+    <button type="submit">Generate Reel</button>
+  </form>
+</body>
+</html>
